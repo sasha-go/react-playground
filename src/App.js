@@ -5,6 +5,7 @@ import TheDate from './state/TheDate';
 import Counter from './state/Counter';
 import Bomb from './state-drills/Bomb';
 import HelloWorld from './state-drills/HelloWorld';
+import RouletteGun from './state-drills/RouletteGun';
 
 
 class App extends Component {
@@ -17,7 +18,8 @@ class App extends Component {
         <TheDate />
         <Counter /> */}
         {/* <Bomb /> */}
-        <HelloWorld />
+        {/* <HelloWorld /> */}
+        <RouletteGun />
       </div>
     );
   }
