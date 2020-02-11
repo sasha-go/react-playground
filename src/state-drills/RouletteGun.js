@@ -44,6 +44,7 @@ class RouletteGun extends React.Component {
 
 
 	render() {
+
 		return (
 			<div className='RouletteGun'>
 				<p>{this.renderDisplay()}</p>
