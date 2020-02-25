@@ -30,7 +30,7 @@ class Accordion extends React.Component {
     renderContent() {
         const currentSection = this.props.sectionProp[this.state.currentSectionIndex]
         return (
-          <div className='content'>
+					<div className='content'>
 								<p>{currentSection.content}</p>
           </div>
         )
